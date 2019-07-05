@@ -20,7 +20,7 @@
 project = 'vnpy'
 copyright = '2019, xinjiyuan97'
 author = 'xinjiyuan97'
-
+master_doc = 'index'
 # The full version, including alpha/beta/rc tags
 release = '2.0.4'
 
