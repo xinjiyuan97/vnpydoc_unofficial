@@ -3,12 +3,12 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to vnpy's documentation!
+VNPY 学习文档
 ================================
 
 .. toctree::
    :maxdepth: 2
-   :caption: README:
+   event
 
 
 
