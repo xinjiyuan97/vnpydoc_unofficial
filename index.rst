@@ -8,7 +8,7 @@ Welcome to vnpy's documentation!
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: README:
 
 
 
