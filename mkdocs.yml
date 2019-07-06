@@ -1,1 +1,8 @@
-site_name: My Docs
+site_name: vnpy非官方文档
+pages:
+- 主页: index.md
+- 安装vnpy: install.md
+- Package参考: 
+  - vnpy.evnet: package_reference/event.md
+
+theme: readthedocs
