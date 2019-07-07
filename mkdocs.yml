@@ -2,7 +2,13 @@ site_name: vnpy非官方文档
 pages:
 - 主页: index.md
 - 安装vnpy: install.md
+- 接口列表、介绍: gateway.md
+- 入门教程: tutorial.md
 - Package参考: 
   - vnpy.evnet: package_reference/event.md
-
+  - vnpy.trader.engine: package_reference/trader_engine.md
+  - vnpy.trader.object: package_reference/trader_object.md
+  - vnpy.trader.gateway: package_reference/trader_gateway.md
+- Gateway参考:
+  - 火币(huobi): gateway_reference/huobi.md
 theme: readthedocs
