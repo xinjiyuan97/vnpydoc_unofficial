@@ -11,5 +11,9 @@ pages:
   - vnpy.trader.gateway: package_reference/trader_gateway.md
   - vnpy.trader.utility: package_reference/trader_utility.md
 - Gateway参考:
+  - 老虎证券(tiger): gateway_reference/tiger.md
   - 火币(huobi): gateway_reference/huobi.md
+- 底层接口参考:
+  - vnpy.api.websocket: base_reference/websocket_client.md
+  - vnpy.api.rest: base_reference/rest.md
 theme: readthedocs

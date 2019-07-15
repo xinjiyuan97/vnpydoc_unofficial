@@ -108,8 +108,13 @@ mainEngine.write_log(msg, source)
 
 订阅名为`gateway_name`的接口的`req`的行情信息。
 ```Python
+setting = main_engine.get_default_setting('HUOBI')
+setting['API Key'] = 'xxxxxxxxxx-xxxxxxxx-xxxxxxxx-xxxxx'
+setting['Secret Key'] = 'xxxxxxxx-xxxxxxxx-xxxxxxxx-xxxxx'
+req = SubscribeRequest('topbtc', Exchange.HUOBI) # 创建一个订阅请求
+main_engine.subscribe(req, 'HUOBI')    
 ```
-
+以上为以火币网接口设置的一段请求。
 **MainEngine.send_order(req, gateway_name)**
 
 向名为`gateway_name`的接口下单。
